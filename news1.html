@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+	<meta name="description" content="NeoTek | Noticias sobre tecnología y videojuegos">
+	<title>NeoTek | Noticias sobre tecnología y videojuegos</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.js"></script>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div id="logo" class="col-sm-2 col-md-3">
+					<a href="news.html">
+						<img src="img/logo.neotek.png" alt="NeoTek Logo"/>
+					</a>
+				</div>
+				<div class="col-sm-6 col-md-6">
+					<h1>
+						<a id="principal" href="news.html">
+							<span id="web-name">NeoTek  </span>
+						</a>
+						<span text="align-center">  Tecnología y Videojuegos</span>
+					</h1>
+					<h3 text="align-center">Las noticias más interesantes del sector</h3>
+				</div>
+				<div id="login_sm" class="hidden-xs col-sm-3 col-md-4">
+					<p class="g"><span class="glyphicon glyphicon-user"></span>
+					</p>
+					<p>
+						<input type="text" class="form-control" placeholder="Usuario" required>
+					</p>
+					<p>
+						<input type="password" class="form-control" placeholder="Contraseña" required>
+					</p>
+					<span>
+					<button type="button" class="btn-xs btn-info">Entrar</button>
+					<button type="button" class="btn-xs btn-info">Registrarse</button>
+					</span>
+				</div>
+				<div id="login_xs" class="col-xs-12 hidden-sm hidden-md hidden-lg">
+					<div class="trans">
+						<button id="boton_entrar_xs" type="button" class="btn-lg btn-info btn-responsive btninter centrado">Entrar</button>
+						<button type="button" class="btn-lg btn-info btn-responsive btninter right centrado" text="right-side">Registrarse</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="main">
+		<div class="container">
+			<section class="row">
+				<div class="col-sm-6">
+					<br>
+					<p class="g"><span class="glyphicon glyphicon-stats"></span>
+					</p>
+					<p id="nsocios">134 Coses</p>
+					<p id="nclubes">3432 Més coses</p>
+				</div>
+				<div class="col-sm-6">
+					<br>
+					<p class="g"><span class="glyphicon glyphicon-heart"></span>
+					</p>
+					<p>Per donar idées...</p>
+					<p>Selector de Comunitat Autònoma</p>
+					<button type="button" class="btn-lg btn-info" data-toggle="modal" data-target="#info">información</button>
+				</div>
+				<br>
+			</section>
+		</div>
+		<div class="container">
+			<section class="post row">
+				<article id="post" class="col-xs-12 col-sm-7 col-md-8">
+					<h1>
+						El seguimiento ocular llega a HTC Vive gracias a un accesorio PnP
+					</h1>
+					<br>
+					<img id="imghorizontal" src="img/aGlass.jpg" class="img-responsive center-block">
+					<br>
+					<p>
+						La capacidad de seguir el movimiento de los ojos para interactuar con interfaces sin necesidad de utilizar mandos 
+						o permitir al usuario mirar hacia los lados manteniendo la cabeza en su sitio es sin duda una de las prestaciones 
+						más interesantes de todas las técnicas que en estos momentos están siendo exploradas de cara al lanzamiento de 
+						visores de realidad virtual de próxima generación. Pero en el caso del <a href="https://www.vive.com/eu/">HTC Vive</a>, no hará falta esperar meses o 
+						años para disfrutar de esta característica.
+					</p>
+					<p>
+						La <i>startup</i> china <a href="http://7invensun.com/">7invensun</a>, financiada parcialmente por Qualcomm y 
+						apadrinada por HTC a través de su programa de creación de accesorios innovadores para el visor Vive, ha anunciado 
+						el lanzamiento de aGlass, un módulo <i>plug and play</i> que permite monitorizar los ojos del usuario para 
+						interactuar con juegos y aplicaciones. Como otros dispositivos de estas características, el módulo de 7invensun 
+						estará inicialmente dirigido a los desarrolladores de software, que deberán trabajar para adaptar sus contenidos 
+						y sacar el máximo provecho a la tecnología.
+					</p>
+					<br>
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eBfWnaEwzRI" frameborder="0" allowfullscreen></iframe>
+						</div>
+					<br><br>
+					<p>
+						Los sensores son de tipo modular y se conectan mediante sendos cables USB que luego se unen en un cable único 
+						conectado al puerto visor. Cada uno de ellos cuenta con un halo de infrarrojos que permiten seguir el movimiento 
+						de los ojos y los parpadeos del usuario.
+					</p>
+					<p>
+						Más allá de la interacción con elementos de la interfaz, uno de los puntos más interesantes y tal vez menos 
+						conocidos del seguimiento ocular es la posibilidad de sacar partido al renderizado <i>foveal</i> o <i>foveated 
+						rendering</i>. 
+						Esta innovadora técnica saca partido al hecho de que nuestros ojos no enfocan con la misma nitidez toda una 
+						escena, permitiendo reducir la cantidad de detalle en la periferia para liberar una gran cantidad de recursos.
+					</p>
+					<br>
+					<img id="imgvertical" src="img/aGlass_view.jpg" class="img-responsive center-block">
+					<br>
+					<p>
+						En un principio el renderizado foveal se puede utilizar tanto para hacer posible el funcionamiento de visores 
+						de realidad virtual en equipos con tarjetas gráficas más modestas como para elevar notablemente la experiencia 
+						visual en aquellos ordenadores con un hardware de mayores prestaciones. Está en manos del desarrollador. 
+						Lo que no se puede escoger es el fabricante de la tarjeta, puesto que en un principio aGlass solo podrá utilizar 
+						esta técnica con los productos Nvidia.
+					</p>
+					<p>
+						Aunque inicialmente aGlass funcionará exclusivamente con el visor de HTC (que ha incubado este proyecto junto a 
+						otros como el módulo inalámbrico de TPCast), 7invensun tiene libertad para ofrecer su tecnología para otros 
+						dispositivos si así lo desea. El precio de venta al público es de 220 dólares. Los sensores saldrán a la venta 
+						en China el próximo mes antes de llegar a Occidente durante el tercer trimestre de este año.
+					</p>
+					<br>
+					<p>
+						 Fuentes:  
+						<a href="https://uploadvr.com/7invensun-eye-tracker-for-vive/" title="Fuente original">UploadVR</a>
+						 - 
+						<a href="https://www.elotrolado.net/noticia_el-seguimiento-ocular-llega-a-htc-vive-gracias-a-un-accesorio-pnp_31791" 
+						title="Fuente">ElOtroLado.net</a>
+					</p>
+				</article>
+				<aside class="hidden-xs col-sm-5 col-md-4">
+					<div id="publi_001">
+						<h2 text="align-center">Ponga aquí su publicidad 
+						<br><br>Ponga aquí su publicidad</h2>
+					</div>
+				</aside>
+			</section>
+		</div>	
+	</section>
+	<footer class="footer"> 
+		<div class="container"> 
+			<ul class="footer-links"> 
+				<li>Facebook</li> 
+				<li>About</li> 
+			</ul> 
+			<p>
+				Developed by Juan Carlos Pons. Todos los derechos reservados
+			</p> 
+		</div> 
+	</footer>
+</body>
+
+</html>
