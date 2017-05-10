@@ -5,7 +5,8 @@
 - Funcionalitat Zoom dehabilitada als dispositius _extra-small_ amb **meta name="viewport" content="..., user-sacalable=no"**
 - Logo del _header_ de l'HTML personalitzat a partir de les eines que ofereix [aquesta web][] de forma gratuïta.
 - Marge dret reservat per publicitat es manté a 300px a tot tipus de dispositius excepte _extra-small_ (_.col-xs-_): **OK!** 
-- Publicitat per dispositius _extra-small_:
+- Publicitat per dispositius _extra-small_: **OK**
+- Footer anul.lat a dispositius amb pantalla xs.
 
 
 
