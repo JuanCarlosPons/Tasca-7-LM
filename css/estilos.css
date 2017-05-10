@@ -1,10 +1,16 @@
 body {
 	background-color: #F8CEB0;
+
+
 }
 
 header {
 	background-color: orange;
 	border-bottom: 3px solid #F87519;
+}
+
+.main-container {
+	padding-bottom: 90px;
 }
 
 article {
@@ -23,6 +29,13 @@ aside {
 
 #publi_001, #publi_002, #publi_003{
 	min-width: 300px;
+	background-color: pink;
+}
+
+#publi_xs {
+	height: 90px;
+	position: fixed;
+	bottom: 0px;
 	background-color: pink;
 }
 
@@ -80,5 +93,9 @@ img, iframe {
 
 #boton_entrar_xs {
 	margin-right: 12px;
+}
+
+#footer {
+	overflow: visible;
 }
 
