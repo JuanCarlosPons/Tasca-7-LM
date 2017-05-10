@@ -4,12 +4,14 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
 	<meta name="description" content="NeoTek | Noticias sobre tecnología y videojuegos">
-	<title>NeoTek | Noticias sobre tecnología y videojuegos</title>
+	<title>NeoTek | Tecnología y Videojuegos</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/bootstrap-theme.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="alternate" type="application/rss+xml" title="NeoTek RSS" href="xml/xml.rss">
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.js"></script>
+	<script src="js/jquery_01.js"></script>
 </head>
 <body>
 	<header>
@@ -39,14 +41,14 @@
 						<input type="password" class="form-control" placeholder="Contraseña" required>
 					</p>
 					<span>
-					<button type="button" class="btn-xs btn-info">Entrar</button>
-					<button type="button" class="btn-xs btn-info">Registrarse</button>
+					<button type="button" class="btn-xs btn-danger">Entrar</button>
+					<button type="button" class="btn-xs btn-danger">Registrarse</button>
 					</span>
 				</div>
 				<div id="login_xs" class="col-xs-12 hidden-sm hidden-md hidden-lg">
 					<div class="trans">
-						<button id="boton_entrar_xs" type="button" class="btn-lg btn-info btn-responsive btninter centrado">Entrar</button>
-						<button type="button" class="btn-lg btn-info btn-responsive btninter right centrado" text="right-side">Registrarse</button>
+						<button id="boton_entrar_xs" type="button" class="btn-lg btn-danger btn-responsive btninter centrado">Entrar</button>
+						<button type="button" class="btn-lg btn-danger btn-responsive btninter right centrado" text="right-side">Registrarse</button>
 					</div>
 				</div>
 			</div>
@@ -59,8 +61,8 @@
 					<br>
 					<p class="g"><span class="glyphicon glyphicon-stats"></span>
 					</p>
-					<p id="nsocios">134 Coses</p>
-					<p id="nclubes">3432 Més coses</p>
+					<p id="nsocios">134 Usuarios Registrados</p>
+					<p id="nclubes">3432 Visitantes mensuales</p>
 				</div>
 				<div class="col-sm-6">
 					<br>
@@ -123,11 +125,13 @@
 						streaming añadió 4,95 millones de suscriptores para aumentar su base total hasta los 98,75 millones. Netflix pronostica 
 						que llegarán a los 100 millones en los próximos días.
 					</p>
-					<a href="https://www.elotrolado.net/noticia_netflix-cerca-de-superar-los-100-millones-de-suscriptores_31668" 
-					title="Ir a la noticia">Sigue leyendo</a>
+					<p>
+						<a href="https://www.elotrolado.net/noticia_netflix-cerca-de-superar-los-100-millones-de-suscriptores_31668" 
+						title="Ir a la noticia">Sigue leyendo</a>
+					</p>
 				</article>
 				<aside class="hidden-xs col-sm-5 col-md-4">
-					<div id="publi_001">
+					<div id="publi_003">
 						<h2>Ponga aquí su publicidad 
 						<br><br>Ponga aquí su publicidad</h2>
 					</div>
@@ -135,17 +139,21 @@
 			</section>
 		</div>	
 	</section>
-	<footer class="footer"> 
-		<div class="container"> 
-			<ul class="footer-links"> 
-				<li>Facebook</li> 
-				<li>About</li> 
-			</ul> 
-			<p>
-				Developed by Juan Carlos Pons. Todos los derechos reservados
-			</p> 
+	<footer class="container"> 
+		<div class="row"> 
+			<div id="footer" class="hidden-xs col-sm-12 col-md-12 col-lg-12">
+				<p>
+					Developed by Juan Carlos Pons
+				</p> 
+			</div>
 		</div> 
 	</footer>
+	<div class="container">	
+		<div class="row">
+			<div id="publi_xs" class="col-xs-12 hidden-sm hidden-md hidden-lg">
+			</div>
+		</div>
+	</div>
 </body>
 
 </html>
