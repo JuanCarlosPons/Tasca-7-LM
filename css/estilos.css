@@ -99,3 +99,12 @@ img, iframe {
 	overflow: visible;
 }
 
+#mas_noticias {
+	background-color: orange;
+	margin: 10px 0 10px 0;
+	border: 2px solid #F87519;
+	border-radius: 6px;
+	padding-bottom: 5px;
+	box-shadow: 4px 5px 5px 0.1px grey;
+}
+
