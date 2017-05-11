@@ -11,6 +11,7 @@
 - Bon aspecte a tots els dispositius, colors agradables i tot _responsive_: **OK**
 - Notícies news1 i news2 html amb tots els requisits (vídeos _responsive_ inclosos, amb pantalla completa activada): **OK** (Notícia 3 de news.html direccionada a notícia font)
 - Etiquetes meta OGP a news1 i news 2: **OK**
+- Codi HTML i CSS ben indentat: **OK**
 - Totes les fonts d'on he extret les noticies són mencionades y enllaçades.
 - Footer anul.lat a dispositius amb pantalla xs per motius estètics relacionats amb la publi als mòbils.
 - Miscelànea amb glyphicons merament estètica.
@@ -18,6 +19,7 @@
 - Carregar notícies des del jSon news.1 no funciona. No he creat el segon jSon per falta de resultats i temps.
 - M'he inspirat en la programació JS d'un company de classe pero no entenc del tot el JS. Hauré d'apredre'l de base sense presses.
 - Al final he esborrat el botó de carregar més notícies mentres feia proves finals de maquetació i no l'he tornat a posar.
+
 
 
 [aquesta web]: https://preview.freelogodesign.org/?lang=EN
