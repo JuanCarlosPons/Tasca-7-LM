@@ -2,17 +2,18 @@ var datosJSON = ["datos/1.json"/* , "datos/2.json" */];
 var limite = 0;
 
 $(document).ready(function(){
+	$("#cargar").on("click", cargarNoticias);
     $(window).scrollTop(0);
 });
 
 $(window).scroll(function(){
     if($(window).scrollTop() + $(window).height() == $(document).height())
     {
-        cargar();
+        cargarNoticias();
     }
 });
 
-function cargar()
+function cargarNoticias()
 {
     if(limite < datosJSON.length)
     {
@@ -21,10 +22,10 @@ function cargar()
             var str;
             $.each(jsonObject, function(i, noticia){
                 str = "";
-                str += "<h2>" + noticia.título + "</h2>";
+                str += "<h2>" + noticia.tÃ­tulo + "</h2>";
+				str += "<text>" + noticia.datetime + "</text>";
                 str += "<p>" + noticia.entradilla + "</p>";
                 str += "<img class='img-responsive' src=\"" + noticia.imagemid +"\" />";
-                str += "<p>" + noticia.datetime + "</p>";
 				str += "</div>"
 
                 items.push(str);
@@ -37,9 +38,10 @@ function cargar()
         });
         limite++;
     }
-/*     if(limite >= datosJSON.length)
+    if(limite >= datosJSON.length)
     {
         $("#cargar").off("click", cargarNoticias);
         $("#cargar").prop("disabled", true);
-    } */
+    }
 }
+
