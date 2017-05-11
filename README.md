@@ -14,7 +14,7 @@
 - Totes les fonts d'on he extret les noticies són mencionades y enllaçades.
 - Footer anul.lat a dispositius amb pantalla xs per motius estètics relacionats amb la publi als mòbils.
 - Miscelànea amb glyphicons merament estètica.
-- Enllaç RSS inclòs, pero no l'he redactat perque no n'he sabut i he dedicat molt més temps a l'assumpte de jQuery.
+- Enllaç RSS inclòs, pero no l'he redactat perque no n'he sabut i he dedicat molt més temps a l'assumpte de jQuery, encara que he plasmat pocs resultats...
 - Carregar notícies des del jSon news.1 no funciona. No he creat el segon jSon per falta de resultats i temps.
 - M'he inspirat en la programació JS d'un company de classe pero no entenc del tot el JS. Hauré d'apredre'l de base sense presses.
 - Al final he esborrat el botó de carregar més notícies mentres feia proves finals de maquetació i no l'he tornat a posar.
