@@ -18,6 +18,8 @@
 - Carregar notícies des del jSon news.1 no funciona. No he creat el segon jSon per falta de resultats i temps.
 - M'he inspirat en la programació JS d'un company de classe pero no entenc del tot el JS. Hauré d'apredre'l de base sense presses.
 - Al final he esborrat el botó de carregar més notícies mentres feia proves finals de maquetació i no l'he tornat a posar.
+- Espero aprovar l'examen final, si és així gràcies per tot i fins aviat. (Visc a Menorca)
 
+Salutacions!
 
 [aquesta web]: https://preview.freelogodesign.org/?lang=EN
