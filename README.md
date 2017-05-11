@@ -5,7 +5,7 @@
 - Funcionalitat Zoom dehabilitada (perque les imatges estan retallades a mida) amb **meta name="viewport" content="..., user-sacalable=no"**
 - Imatges retallades i optimitzades amb Gimp, aconseguint resultats òptims.
 - Logo del _header_ de l'HTML personalitzat a partir de les eines que ofereix [aquesta web][] de forma gratuïta.
-- Logo y nom de l'aplicació al header redireccionen a news.html: **OK**
+- Logo y nom de l'aplicació al header redireccionen a news.html: **OK** (menos a pantalles xs, que no sé per què l'enllaç es perd)
 - Marge dret reservat per publicitat es manté a 300px a tot tipus de dispositius excepte _extra-small_ (_.col-xs-_): **OK!** 
 - Publicitat de 90px d'alçada per dispositius _extra-small_ fixada al _bottom_ de la pàgina: **OK**
 - Bon aspecte a tots els dispositius, colors agradables i tot _responsive_: **OK**
